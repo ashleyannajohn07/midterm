@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font:normal normal normal 12px/1.5 Arial, Helvetica, sans-serif;
+}
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    color: darkslateblue;
+    font-size: large;
+}
+h2{
+    color: darkslateblue;
+    font-size: medium;
+}
+main{
+    height: 70vh;
+}
+img{
+    border: 90% 80% solid darkslateblue
+}
+figure{
+    background-color: rgb(174, 174, 247);
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+#figone{
+    float: left;
+}
+#figtwo{
+    float: right;
+}
+section{
+    clear: both;
+}
+figcaption{
+    font-weight: bold; font-size: medium; color: rgb(46, 46, 93); padding: 5px;
+}
+a{
+    color:rgb(46, 46, 93);
+}
+a:hover{
+    color: deeppink;
+}
+ul li{
+   list-style-type:square; 
+   line-height:20px;
+}
+header, footer{
+    background-color:rgb(174, 174, 247) ;
+}
